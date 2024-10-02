@@ -33,7 +33,7 @@ $fields = mysqli_fetch_fields($query);
                 <tr>
                     <td><?= $row['ProductName'] ?></td>
                     <td><?= $row['CategoryName'] ?></td>
-                    <td><?= $row['UnitPrice'] ?></td>
+                    <td><?= $row['UnitPrice'] . " €" ?></td>
                 </tr>
                 <?php endwhile; ?>
             </tbody>
